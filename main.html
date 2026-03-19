@@ -7,6 +7,26 @@
 </head>
 
 <body>
+	<form style="display:flex;flex-direction:column;gap:10px; align-items:center;justify-content:center;">
+		<input type="text" placeholder="Name" id="name">
+		<input type="text" placeholder="Phone Number" id="phone">
+		<input type="text" placeholder="Address" id="address">
+		<label>
+			Have you ever lived with a Dog before?
+		    <input type="checkbox" id="checkbox" value="Have you ever lived with a Dog before?">
+			
+		</label>
+		<label>
+			Please select your preferred breeds
+			<select id="multiSelect" multiple size=1>
+				<option>Pug</option>
+				<option>German Shepherd</option>
+				<option>Doberman</option>
+			</select>
+		</label>
+		<input type="submit" id="submit" value="submit">
+		
+	</form>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
